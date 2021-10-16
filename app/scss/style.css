@@ -413,7 +413,7 @@ button:hover::before,
 
 .hero__image {
   position: relative;
-  background-image: url("/images/nodosgif.gif");
+  background-image: url("../images/nodosgif.gif");
   background-size: 35%;
   background-repeat: repeat-x;
   background-position: center;
@@ -749,7 +749,7 @@ button:hover::before,
 }
 
 .product .img1 {
-  background-image: url("/images/nodosgif.gif");
+  background-image: url("../images/nodosgif.gif");
   -ms-grid-column: -2;
       grid-column-start: -2;
   grid-column-end: -1;
@@ -768,7 +768,7 @@ button:hover::before,
 }
 
 .img2 {
-  background-image: url("/images/nodosgif.gif");
+  background-image: url("../images/nodosgif.gif");
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 2;
@@ -781,7 +781,7 @@ button:hover::before,
 }
 
 .img3 {
-  background-image: url("/images/nodosgif.gif");
+  background-image: url("../images/nodosgif.gif");
   -ms-grid-column: -2;
       grid-column-start: -2;
   grid-column-end: -1;
