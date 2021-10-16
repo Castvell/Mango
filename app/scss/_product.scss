@@ -1,0 +1,55 @@
+.product{
+    background-color: $lightGrayishBlue;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.product .product_title{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.product_target1,
+    .product_target2,
+    .product_target3{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+
+
+.product .img1{
+    background-image: url('/images/nodosgif.gif');
+    grid-column-start: -2;
+    grid-column-end: -1;
+}
+.product .product_text1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+.product_text2{
+    grid-column-start: -2;
+    grid-column-end: -1;
+}
+.img2{
+    
+    background-image: url('/images/nodosgif.gif');
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.product_text3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}    
+.img3{
+    background-image: url('/images/nodosgif.gif');
+    grid-column-start: -2;
+    grid-column-end: -1;
+}
+
+

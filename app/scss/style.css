@@ -414,10 +414,10 @@ button:hover::before,
 .hero__image {
   position: relative;
   background-image: url("/images/nodosgif.gif");
-  background-size: 50% cover;
-  background-repeat: no-repeat;
+  background-size: 35%;
+  background-repeat: repeat-x;
   background-position: center;
-  min-height: 17.5rem;
+  min-height: 10.5rem;
 }
 
 @media (min-width: 40em) {
@@ -429,12 +429,12 @@ button:hover::before,
 
 @media (min-width: 64em) {
   .hero__image {
-    -webkit-box-flex: 3;
-        -ms-flex: 3;
-            flex: 3;
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
     height: 41rem;
     background-image: none;
   }
@@ -446,10 +446,10 @@ button:hover::before,
     position: absolute;
     height: 100%;
     background-image: url("/images/nodosgif.gif");
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: center;
     width: 100%;
-    background-size: 62%;
+    background-size: 70%;
   }
 }
 
@@ -461,8 +461,8 @@ button:hover::before,
 
 @media (min-width: 64em) {
   .hero__image::after {
-    width: 120%;
-    height: 122%;
+    width: 100%;
+    height: 100%;
     background-size: 94%;
     background-position: center 150%;
     left: 22%;
@@ -486,7 +486,6 @@ button:hover::before,
 }
 
 .feature {
-  background-color: #f3f4f6;
   text-align: center;
 }
 
@@ -722,5 +721,69 @@ button:hover::before,
     -ms-grid-column-align: end;
         justify-self: end;
   }
+}
+
+.product {
+  background-color: #f3f4f6;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+}
+
+.product .product_title {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.product_target1,
+.product_target2,
+.product_target3 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.product .img1 {
+  background-image: url("/images/nodosgif.gif");
+  -ms-grid-column: -2;
+      grid-column-start: -2;
+  grid-column-end: -1;
+}
+
+.product .product_text1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.product_text2 {
+  -ms-grid-column: -2;
+      grid-column-start: -2;
+  grid-column-end: -1;
+}
+
+.img2 {
+  background-image: url("/images/nodosgif.gif");
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.product_text3 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.img3 {
+  background-image: url("/images/nodosgif.gif");
+  -ms-grid-column: -2;
+      grid-column-start: -2;
+  grid-column-end: -1;
 }
 /*# sourceMappingURL=style.css.map */
