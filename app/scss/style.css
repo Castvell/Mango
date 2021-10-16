@@ -413,7 +413,7 @@ button:hover::before,
 
 .hero__image {
   position: relative;
-  background-image: url("/images/nodosgif.gif");
+  background-image: url("images/../../nodosgif.gif");
   background-size: 35%;
   background-repeat: repeat-x;
   background-position: center;
@@ -445,7 +445,7 @@ button:hover::before,
     content: "";
     position: absolute;
     height: 100%;
-    background-image: url("../../images/nodosgif.gif");
+    background-image: url("images/../../nodosgif.gif");
     background-repeat: repeat-x;
     background-position: center;
     width: 100%;
