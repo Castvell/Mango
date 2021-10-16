@@ -1,5 +1,9 @@
-.product{
+
+.gg{
     background-color: $lightGrayishBlue;
+}
+
+.product{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
@@ -21,35 +25,120 @@
 
 
 .product .img1{
-    background-image: url('../images/nodosgif.gif');
-    grid-column-start: -2;
-    grid-column-end: -1;
+    background-image: none;
+    grid-column-start: -1;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat-x;
+
+    @include breakpoint-up(medium){        
+        background-image: url('../images/nodosgif.gif');
+        grid-column-start: -2;
+        grid-column-end: -1;
+    }
+
+    @include breakpoint-up(large){                
+        background-image: url('../images/nodosgif.gif');        
+        grid-column-start: -2;
+        grid-column-end: -1;
+    }
+
 }
 .product .product_text1{
+    text-align: center;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: -1;
+    
+
+    @include breakpoint-up(medium){
+        text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    @include breakpoint-up(large){
+        text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
 }
 
 
 .product_text2{
-    grid-column-start: -2;
-    grid-column-end: -1;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: -1;   
+    grid-row: 3;
+
+    @include breakpoint-up(medium){
+        text-align: left;
+        grid-column-start: -2;
+        grid-column-end: -1;
+    }
+
+    @include breakpoint-up(large){
+        text-align: left;
+        grid-column-start: -2;
+        grid-column-end: -1;
+    }
 }
 .img2{
-    
-    background-image: url('../images/nodosgif.gif');
-    grid-column-start: 1;
-    grid-column-end: 2;
+    background-image: none;
+    grid-column-start: -1;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat-x;
+
+    @include breakpoint-up(medium){        
+        background-image: url('../images/nodosgif.gif');
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    @include breakpoint-up(large){                
+        background-image: url('../images/nodosgif.gif');        
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 }
 
 .product_text3{
+    text-align: center;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: -1;
+    
+
+    @include breakpoint-up(medium){
+        text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    @include breakpoint-up(large){
+        text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 }    
 .img3{
-    background-image: url('../images/nodosgif.gif');
-    grid-column-start: -2;
-    grid-column-end: -1;
+    background-image: none;
+    grid-column-start: -1;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat-x;
+
+    @include breakpoint-up(medium){        
+        background-image: url('../images/nodosgif.gif');
+        grid-column-start: -2;
+        grid-column-end: -1;
+    }
+
+    @include breakpoint-up(large){                
+        background-image: url('../images/nodosgif.gif');        
+        grid-column-start: -2;
+        grid-column-end: -1;
+    }
 }
 
 

@@ -723,8 +723,11 @@ button:hover::before,
   }
 }
 
-.product {
+.gg {
   background-color: #f3f4f6;
+}
+
+.product {
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
@@ -749,41 +752,160 @@ button:hover::before,
 }
 
 .product .img1 {
-  background-image: url("../images/nodosgif.gif");
-  -ms-grid-column: -2;
-      grid-column-start: -2;
-  grid-column-end: -1;
+  background-image: none;
+  -ms-grid-column: -1;
+      grid-column-start: -1;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: repeat-x;
+}
+
+@media (min-width: 40em) {
+  .product .img1 {
+    background-image: url("../images/nodosgif.gif");
+    -ms-grid-column: -2;
+        grid-column-start: -2;
+    grid-column-end: -1;
+  }
+}
+
+@media (min-width: 64em) {
+  .product .img1 {
+    background-image: url("../images/nodosgif.gif");
+    -ms-grid-column: -2;
+        grid-column-start: -2;
+    grid-column-end: -1;
+  }
 }
 
 .product .product_text1 {
+  text-align: center;
   -ms-grid-column: 1;
       grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: -1;
+}
+
+@media (min-width: 40em) {
+  .product .product_text1 {
+    text-align: left;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
+@media (min-width: 64em) {
+  .product .product_text1 {
+    text-align: left;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
 }
 
 .product_text2 {
-  -ms-grid-column: -2;
-      grid-column-start: -2;
+  text-align: center;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
   grid-column-end: -1;
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
+@media (min-width: 40em) {
+  .product_text2 {
+    text-align: left;
+    -ms-grid-column: -2;
+        grid-column-start: -2;
+    grid-column-end: -1;
+  }
+}
+
+@media (min-width: 64em) {
+  .product_text2 {
+    text-align: left;
+    -ms-grid-column: -2;
+        grid-column-start: -2;
+    grid-column-end: -1;
+  }
 }
 
 .img2 {
-  background-image: url("../images/nodosgif.gif");
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 2;
+  background-image: none;
+  -ms-grid-column: -1;
+      grid-column-start: -1;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: repeat-x;
+}
+
+@media (min-width: 40em) {
+  .img2 {
+    background-image: url("../images/nodosgif.gif");
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
+@media (min-width: 64em) {
+  .img2 {
+    background-image: url("../images/nodosgif.gif");
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
 }
 
 .product_text3 {
+  text-align: center;
   -ms-grid-column: 1;
       grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: -1;
+}
+
+@media (min-width: 40em) {
+  .product_text3 {
+    text-align: left;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
+@media (min-width: 64em) {
+  .product_text3 {
+    text-align: left;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
 }
 
 .img3 {
-  background-image: url("../images/nodosgif.gif");
-  -ms-grid-column: -2;
-      grid-column-start: -2;
-  grid-column-end: -1;
+  background-image: none;
+  -ms-grid-column: -1;
+      grid-column-start: -1;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: repeat-x;
+}
+
+@media (min-width: 40em) {
+  .img3 {
+    background-image: url("../images/nodosgif.gif");
+    -ms-grid-column: -2;
+        grid-column-start: -2;
+    grid-column-end: -1;
+  }
+}
+
+@media (min-width: 64em) {
+  .img3 {
+    background-image: url("../images/nodosgif.gif");
+    -ms-grid-column: -2;
+        grid-column-start: -2;
+    grid-column-end: -1;
+  }
 }
 /*# sourceMappingURL=style.css.map */
