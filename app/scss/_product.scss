@@ -13,6 +13,11 @@
 .product .product_title{
     grid-column-start: 1;
     grid-column-end: -1;
+    text-align: center;
+    
+    @include breakpoint-up(large){                
+        text-align: left;    
+    }
 }
 
 .product_target1,
@@ -32,13 +37,13 @@
     background-repeat: repeat-x;
 
     @include breakpoint-up(medium){        
-        background-image: url('../images/nodosgif.gif');
+        background-image: url('../images/gobernment.jpg');
         grid-column-start: -2;
         grid-column-end: -1;
     }
 
     @include breakpoint-up(large){                
-        background-image: url('../images/nodosgif.gif');        
+        background-image: url('../images/gobernment.jpg');        
         grid-column-start: -2;
         grid-column-end: -1;
     }
@@ -91,13 +96,13 @@
     background-repeat: repeat-x;
 
     @include breakpoint-up(medium){        
-        background-image: url('../images/nodosgif.gif');
+        background-image: url('../images/company.jpg');
         grid-column-start: 1;
         grid-column-end: 2;
     }
 
     @include breakpoint-up(large){                
-        background-image: url('../images/nodosgif.gif');        
+        background-image: url('../images/company.jpg');        
         grid-column-start: 1;
         grid-column-end: 2;
     }
@@ -129,13 +134,13 @@
     background-repeat: repeat-x;
 
     @include breakpoint-up(medium){        
-        background-image: url('../images/nodosgif.gif');
+        background-image: url('../images/bank.jpg');
         grid-column-start: -2;
         grid-column-end: -1;
     }
 
     @include breakpoint-up(large){                
-        background-image: url('../images/nodosgif.gif');        
+        background-image: url('../images/bank.jpg');        
         grid-column-start: -2;
         grid-column-end: -1;
     }

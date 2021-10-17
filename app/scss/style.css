@@ -323,8 +323,8 @@ button:hover::before,
 }
 
 .header__logo img {
-  width: 8.8125rem;
-  height: 1.375rem;
+  width: 8.8rem;
+  height: 2rem;
 }
 
 .header__toggle > span {
@@ -580,7 +580,7 @@ button:hover::before,
         grid-template-columns: 4.2fr 2fr 2fr 3fr;
     -ms-grid-rows: 1fr auto;
         grid-template-rows: 1fr auto;
-        grid-template-areas: 'logo links1 links2 cta' 'social links1 links2 copyright';
+        grid-template-areas: 'logo links1 links2 cta' 'social links1 links2 copyright';
     gap: 1rem;
     justify-items: start;
   }
@@ -604,6 +604,11 @@ button:hover::before,
   .footer__logo {
     grid-area: logo;
   }
+}
+
+.footer__logo img {
+  width: 8.8rem;
+  height: 2rem;
 }
 
 @media (max-width: 63.9375em) {
@@ -741,6 +746,13 @@ button:hover::before,
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: -1;
+  text-align: center;
+}
+
+@media (min-width: 64em) {
+  .product .product_title {
+    text-align: left;
+  }
 }
 
 .product_target1,
@@ -762,7 +774,7 @@ button:hover::before,
 
 @media (min-width: 40em) {
   .product .img1 {
-    background-image: url("../images/nodosgif.gif");
+    background-image: url("../images/gobernment.jpg");
     -ms-grid-column: -2;
         grid-column-start: -2;
     grid-column-end: -1;
@@ -771,7 +783,7 @@ button:hover::before,
 
 @media (min-width: 64em) {
   .product .img1 {
-    background-image: url("../images/nodosgif.gif");
+    background-image: url("../images/gobernment.jpg");
     -ms-grid-column: -2;
         grid-column-start: -2;
     grid-column-end: -1;
@@ -841,7 +853,7 @@ button:hover::before,
 
 @media (min-width: 40em) {
   .img2 {
-    background-image: url("../images/nodosgif.gif");
+    background-image: url("../images/company.jpg");
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 2;
@@ -850,7 +862,7 @@ button:hover::before,
 
 @media (min-width: 64em) {
   .img2 {
-    background-image: url("../images/nodosgif.gif");
+    background-image: url("../images/company.jpg");
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 2;
@@ -893,7 +905,7 @@ button:hover::before,
 
 @media (min-width: 40em) {
   .img3 {
-    background-image: url("../images/nodosgif.gif");
+    background-image: url("../images/bank.jpg");
     -ms-grid-column: -2;
         grid-column-start: -2;
     grid-column-end: -1;
@@ -902,7 +914,7 @@ button:hover::before,
 
 @media (min-width: 64em) {
   .img3 {
-    background-image: url("../images/nodosgif.gif");
+    background-image: url("../images/bank.jpg");
     -ms-grid-column: -2;
         grid-column-start: -2;
     grid-column-end: -1;
