@@ -41,7 +41,7 @@
           <a href="#">CONTACT US</a>
         </div>
 
-        <a href="#" class="button header__cta hide-for-mobile"
+        <a id="btn1" href="#Demo" class="button header__cta hide-for-mobile"
           >REQUEST A DEMO</a
         >
       </nav>
@@ -63,7 +63,7 @@
           <p>
             We build a software data plattform to monitor, prevent and investigate fraud, money laundering, financial crime and tax evasion with Blockchain Assets.
           </p>
-          <a href="#" class="button hero__cta">Request a Demo</a>
+          <a id="btn2" href="#Demo" class="button hero__cta">Request a Demo</a>
         </div>
       </div>
     </section>
@@ -226,7 +226,7 @@
         </div>
       </div>
     </section>-->
-    
+
     <footer class="footer">
       <div class="container">
         <a class="footer__logo" href="#">
@@ -294,7 +294,7 @@
         </div>
 
         <div class="footer__cta">
-          <a href="#" class="button">Request a Demo</a>
+          <a id="btn3" href="#Demo" class="button">Request a Demo</a>
         </div>
 
         <div class="footer__copyright">
@@ -303,6 +303,66 @@
       </div>
       
     </footer>
+
+    <section id="Demo" class="dm">
+      <div class="popup">
+        <!--
+        <span class="big-circle"></span>
+        -->
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Schedule a Demo</h3>
+            <p class="text">
+              Please, fill the form to shedule a demo with our team.
+            </p>
+          </div>          
+
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form action="index.html" autocomplete="off">
+
+              <h3 class="title">Contact us</h3>
+
+              <div class="input-popup">
+                <input type="text" name="name" class="input" />
+                <label for="">Name</label>
+                <span>Name</span>
+              </div>
+
+              <div class="input-popup">
+                <input type="text" name="company" class="input" />
+                <label for="">Company</label>
+                <span>Company</span>
+              </div>
+
+              <div class="input-popup">
+                <input type="email" name="email" class="input" />
+                <label for="">Work Email</label>
+                <span>Work Email</span>
+              </div>
+
+              <div class="input-popup">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              
+              <!--
+              <div class="input-popup textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">W</label>
+                <span>Message</span>
+              </div>
+              -->
+
+              <input id="btnPopup" type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        
+      </div>
+    </section>
 
     <script src="app/js/script.js"></script>
   </body>
