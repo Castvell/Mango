@@ -15,6 +15,20 @@ const option2 = document.querySelector('#mobile_header2');
 const option3 = document.querySelector('#mobile_header3');
 
 //popup
+document.querySelector('#demoBtn').addEventListener('click', function(){
+  console.log('click demo banner button');
+  document.querySelector('.popup').classList.add("active");
+  document.querySelector('.dm').classList.add("activo");
+  body.classList.add('noscroll');
+});
+
+document.querySelector('#mobile_header3').addEventListener('click', function(){
+  console.log('click demo banner button');
+  document.querySelector('.popup').classList.add("active");
+  document.querySelector('.dm').classList.add("activo");
+  body.classList.add('noscroll');
+});
+
 btnDemo1.addEventListener('click', function(){
   console.log('click demo1');
   document.querySelector('.popup').classList.add("active");
@@ -23,14 +37,14 @@ btnDemo1.addEventListener('click', function(){
 });
 
 btnDemo2.addEventListener('click', function(){
-  console.log('click demo1');
+  console.log('click demo2');
   document.querySelector('.popup').classList.add("active");
   document.querySelector('.dm').classList.add("activo");
   body.classList.add('noscroll');
 });
 
 btnDemo3.addEventListener('click', function(){
-  console.log('click demo1');
+  console.log('click demo3');
   document.querySelector('.popup').classList.add("active");
   document.querySelector('.dm').classList.add("activo");
   body.classList.add('noscroll');
